@@ -1,19 +1,38 @@
-Accessing and editing the code for your robot arm running on an Arduino Uno typically involves the following steps:
+# Ignore virtual environment directories
+venv/
+env/
 
-Connect to the Arduino: Ensure that your Arduino Uno is connected to your computer via a USB cable.
+# Ignore log files and other temporary files
+*.log
+*.swp
 
-Install the Arduino IDE: If you don't have the Arduino Integrated Development Environment (IDE) installed on your computer, you can download and install it from the Arduino website.
+# Ignore IDE and text editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 
-Open the Arduino IDE: Launch the Arduino IDE on your computer.
+# Ignore user-specific configuration files
+*.ini
+*.conf
+*.db
 
-Locate the Robot Arm Code: The Arduino code for your robot arm should be stored in a .ino file. This is the main Arduino sketch file. You may have received this file from the manufacturer of the robot arm, or you might have written it yourself. Locate this file on your computer.
+# Ignore generated documentation
+docs/_build/
 
-Open the .ino File: In the Arduino IDE, go to File > Open and select the .ino file containing the robot arm code.
+# Ignore system and environment-specific files
+__MACOSX/
+.DS_Store
+Thumbs.db
 
-Edit the Code: Once the code is open in the Arduino IDE, you can make the necessary edits to control the speed of the revolute joints. Depending on how the code is structured, you may need to look for sections related to motor control, speed control, or PWM (Pulse Width Modulation) settings.
+# Ignore any sensitive or private information (e.g., API keys)
+secrets.json
 
-Upload the Modified Code: After making your edits, save the file and click the "Upload" button (right arrow icon) in the Arduino IDE to upload the modified code to your Arduino Uno. Ensure that your Arduino Uno is selected as the target device in the "Tools" menu.
+# Ignore compiled binaries (e.g., executables)
+*.exe
+*.out
+*.dll
 
-Test the Robot Arm: Once the code is uploaded successfully, test the robot arm to see if the revolute joints now rotate at the desired speed. You may need to fine-tune the code based on your specific requirements.
-
-Save Backup Copies: It's a good practice to save backup copies of the original code and any modified versions. This allows you to revert to the original code if needed.
+# Ignore package management files
+node_modules/
+yarn-error.log
