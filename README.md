@@ -10,8 +10,7 @@ This project's primary goal is to develop a machine learning model capable of pr
 The dataset used in this project is obtained from the Kaggle competition "Bluebook for Bulldozers". Both the training and test data sets used for model development and evaluation are sourced from this Kaggle competition. The data is structured and includes features that provide insights into the heavy equipment being sold at auction.
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
+- [Setup](#setup)
 - [Data and Datasets](#data-and-datasets)
 - [Contributing](#contributing)
 - [License](#license)
